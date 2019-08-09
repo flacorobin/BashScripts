@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#Script that connects to a remote Mac server and retrieves Uptime, CPU Info, Mem usage and Network addresses stats
+
 
 if [ $# -eq 0 ]; then
   Username=lantec #Default username to minimize input but on future version can be put as a input variable
